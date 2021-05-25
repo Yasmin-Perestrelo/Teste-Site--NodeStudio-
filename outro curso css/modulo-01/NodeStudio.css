@@ -1,0 +1,260 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'lobister';
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.5em;
+    color: black;
+}
+
+p{
+    font-size: 1em;
+    color: gray;
+}
+
+/*cabeçalho = header*/
+
+body{
+    background-color: #d8f7ff;
+}
+
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: rgb(54, 199, 139);
+}
+
+.logo a{
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-size: 0; 
+    margin-top: -45px; 
+    margin-bottom: -45px;
+    margin-left: -45px;
+}
+
+.cabecalho form{
+    width: 30%;
+    float: right;
+    margin-top: 35px;
+}
+
+.cabecalho input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+}
+
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: indigo;
+    color: whitesmoke;
+    border-radius: 0 5px 5px 0;
+}
+
+.menu{
+    width: 100%;
+    float: left;
+    background-color: aquamarine;
+    padding: 18px 8%;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    color: black;
+    margin-right: 25px;
+}
+
+.menu li a:hover{
+    color: cornsilk;
+}
+
+figure{
+    height: 10px;
+    
+}
+
+/*icones redes sociais*/
+
+.icones-social{
+    float: right;
+}
+
+.icones-social a{
+    float: left;
+    margin-left: 12px;
+    color: black;
+}
+
+.facebook:hover{
+    color: #3B5998;
+}
+
+.twitter:hover{
+    color: #54A4D6;
+}
+
+.google:hover{
+    color: #D73D32 ;
+}
+
+/*principal*/
+
+
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 40px 20px 0;
+}
+
+.onde-estamos p{
+    text-align: center;
+}
+
+.onde-estamos h2,
+.sobre h2{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.sobre img{
+    width: 40%;
+    float: left;
+    border-radius: 5px;
+    margin:0 15px 15px 0;
+}
+
+.sobre p{
+    text-align: justify;
+}
+
+/*sidebar*/
+
+.onde-estamos{
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    background-color: rgb(132, 221, 174);
+    border-radius: 5px;
+}
+
+.onde-estamos h2{
+    margin-bottom: 5px;
+}
+
+.onde-estamos iframe{
+    width: 100%;
+    height: 250px;
+    margin: 20px 0;
+}
+
+.onde-estamos li{
+    margin-bottom: 10px;
+}
+
+.onde-estamos i{
+    margin-right: 5px;
+}
+
+/*Newsletter*/
+
+.newsletter{
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 50px 8%;
+   
+}
+
+.newsletter h3{
+    font-size: 1.8em; 
+    color: whitesmoke; 
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+.newsletter p{
+    font-size: 1.2em;
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+.newsletter form{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.newsletter form input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 10px 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: black;
+    float: left;
+}
+
+.newsletter button{
+    width: 17%;
+    background-color: gray;
+    padding: 9px 14px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+    color: honeydew;
+    font-size: 20px ;
+}
+
+.newsletter button:hover{
+    background-color:rgb(180, 180, 180);
+}
+/*rodape*/
+
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: rgb(30, 170, 112);
+    padding: 20px 8%;
+}
+
+.rodape p{
+    color: white;
+}
